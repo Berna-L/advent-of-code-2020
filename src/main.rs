@@ -1,10 +1,3 @@
-// mod day1;
-// mod day2;
-// mod day3;
-// mod day4;
-// mod day4_rules;
-// mod day5;
-
 #[macro_use]
 extern crate lazy_static;
 extern crate regex;
@@ -38,6 +31,10 @@ mod day7 {
     pub mod code;
 }
 
+mod day9 {
+    pub mod code;
+}
+
 fn main() {
     // day1::code::day_1_puzzle_1();
     // day1::code::day_1_puzzle_2();
@@ -53,5 +50,7 @@ fn main() {
     //
     // day6::code::day_6_puzzle_1();
 
-    day7::code::day_7_puzzle_1();
+    // day7::code::day_7_puzzle_1();
+
+    day9::code::day_9();
 }
