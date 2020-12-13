@@ -28,6 +28,11 @@ mod day6 {
 }
 
 mod day7 {
+    pub mod puzzle1;
+    pub mod puzzle2;
+}
+
+mod day8 {
     pub mod code;
 }
 
@@ -51,6 +56,11 @@ fn main() {
     // day6::code::day_6_puzzle_1();
 
     // day7::code::day_7_puzzle_1();
+
+    // day7::puzzle1::day_7_puzzle_1();
+    // day7::puzzle2::day_7_puzzle_2();
+
+    // day8::code::day_8_puzzle_2();
 
     day9::code::day_9();
 }

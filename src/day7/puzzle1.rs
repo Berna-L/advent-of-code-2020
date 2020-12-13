@@ -51,7 +51,6 @@ fn split_outer_inner(line: String) -> Vec<String> {
 }
 
 fn get_inner_list(inner: String) -> Vec<String> {
-    // let regex = Regex::new(r"^\d+ (\w+ \w+) bag(s?)$").expect("eh");
     inner
         .split(", ")
         .filter(|s| NO_OTHER.eq(s).not())
