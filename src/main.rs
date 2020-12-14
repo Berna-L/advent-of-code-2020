@@ -40,6 +40,19 @@ mod day9 {
     pub mod code;
 }
 
+mod day10 {
+    pub mod code;
+}
+
+mod day11 {
+    pub mod puzzle1;
+    pub mod puzzle2;
+}
+
+mod day12 {
+    pub mod code;
+}
+
 fn main() {
     // day1::code::day_1_puzzle_1();
     // day1::code::day_1_puzzle_2();
@@ -62,5 +75,14 @@ fn main() {
 
     // day8::code::day_8_puzzle_2();
 
-    day9::code::day_9();
+    // day9::code::day_9();
+
+    // day10::code::puzzle_2();
+
+    // day11::puzzle1::puzzle_1();
+
+    // day11::puzzle2::puzzle_2();
+
+    // day12::code::puzzle_1();
+    day12::code::puzzle_2();
 }

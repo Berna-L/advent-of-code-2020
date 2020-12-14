@@ -9,7 +9,6 @@ use std::io::BufRead;
 use std::ops::Not;
 use std::path::Path;
 use std::str::FromStr;
-use std::string::ParseError;
 
 lazy_static! {
     static ref RE: Regex = Regex::new(r"^(?P<oper>\w{3}) (?P<number>(\+|-)\d+)$").expect("eh");
@@ -70,7 +69,7 @@ fn process_altered_boot_code(boot_code: &Vec<Oper>, ptr_to_alter: usize) -> Opti
     let mut ptr: isize = 0;
     let mut processed = HashSet::new();
 
-    while true {
+    loop {
         if processed.contains(&ptr) {
             return None;
         }
