@@ -99,5 +99,6 @@ fn main() {
     // day13::puzzle1::puzzle_1();
     // day13::puzzle2::puzzle_2();
 
-    day14::puzzle_1::puzzle_1();
+    // day14::puzzle_1::puzzle_1();
+    day14::puzzle_2::puzzle_2();
 }

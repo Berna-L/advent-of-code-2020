@@ -24,7 +24,7 @@ pub fn puzzle_1() {
 
     let mut memory: HashMap<usize, usize> = HashMap::new();
 
-    let mut current_mask = Mask(HashMap::new()); // trocar
+    let mut current_mask = Mask(HashMap::new());
 
     for op in operations {
         match op {
