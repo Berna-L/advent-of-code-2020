@@ -63,6 +63,10 @@ mod day14 {
     pub mod puzzle_2;
 }
 
+mod day15 {
+    pub mod code;
+}
+
 fn main() {
     // day1::code::day_1_puzzle_1();
     // day1::code::day_1_puzzle_2();
@@ -100,5 +104,7 @@ fn main() {
     // day13::puzzle2::puzzle_2();
 
     // day14::puzzle_1::puzzle_1();
-    day14::puzzle_2::puzzle_2();
+    // day14::puzzle_2::puzzle_2();
+
+    day15::code::puzzle();
 }
