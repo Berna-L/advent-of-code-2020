@@ -76,6 +76,11 @@ mod day17 {
     pub mod three_dimensions;
 }
 
+mod day18 {
+    pub mod puzzle_1;
+    pub mod puzzle_2;
+}
+
 fn main() {
     // day1::code::day_1_puzzle_1();
     // day1::code::day_1_puzzle_2();
@@ -120,5 +125,8 @@ fn main() {
     // day16::code::puzzles();
 
     // day17::code::puzzle_1();
-    day17::four_dimensions::puzzle_2();
+    // day17::four_dimensions::puzzle_2();
+
+    // day18::puzzle_1::puzzle_1();
+    day18::puzzle_2::puzzle_2();
 }
